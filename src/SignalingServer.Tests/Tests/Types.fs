@@ -1,6 +1,6 @@
-﻿module Behide.OnlineServices.Tests.Types
+﻿module SignalingServer.Tests.Types
 
-open Behide.OnlineServices
+open SignalingServer
 open Expecto
 
 [<Tests>]

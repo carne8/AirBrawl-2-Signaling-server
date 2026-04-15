@@ -1,14 +1,14 @@
-module Behide.OnlineServices.Tests.Signaling.All
+module SignalingServer.Tests.Signaling.All
 
 open System
 open Expecto
 open Microsoft.AspNetCore.SignalR.Client
 open System.Threading.Tasks
 
-open Behide.OnlineServices.Signaling
-open Behide.OnlineServices.Tests
-open Behide.OnlineServices.Tests.Signaling
-open Behide.OnlineServices.Tests.Signaling.Common
+open SignalingServer.Signaling
+open SignalingServer.Tests
+open SignalingServer.Tests.Signaling
+open SignalingServer.Tests.Signaling.Common
 
 [<Tests>]
 let signalingTests =

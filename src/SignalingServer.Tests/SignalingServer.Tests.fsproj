@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../Behide.OnlineServices/Behide.OnlineServices.fsproj" />
+    <ProjectReference Include="../SignalingServer/SignalingServer.fsproj" />
 
     <Compile Include="Common.fs" />
 

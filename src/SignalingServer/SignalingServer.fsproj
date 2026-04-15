@@ -4,7 +4,7 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
     <ItemGroup>
-        <ProjectReference Include="../Behide.OnlineServices.Types/Behide.OnlineServices.Types.fsproj" />
+        <ProjectReference Include="../SignalingServer.Types/SignalingServer.Types.fsproj" />
         <Compile Include="Types.fs" />
         <Compile Include="Helpers.fs" />
         <Compile Include="Stores.fs" />

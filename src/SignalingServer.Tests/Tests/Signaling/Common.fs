@@ -1,6 +1,6 @@
-﻿module Behide.OnlineServices.Tests.Signaling.Common
+﻿module SignalingServer.Tests.Signaling.Common
 
-open Behide.OnlineServices.Signaling
+open SignalingServer.Signaling
 
 open System.Text.Json.Serialization
 open System.Threading.Tasks

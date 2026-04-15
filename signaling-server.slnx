@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="src/SignalingServer.Tests/SignalingServer.Tests.fsproj" />
+  <Project Path="src/SignalingServer.Types/SignalingServer.Types.fsproj" />
+  <Project Path="src/SignalingServer/SignalingServer.fsproj" />
+</Solution>

@@ -1,8 +1,8 @@
-﻿module Behide.OnlineServices.Hubs.Signaling.RoomManagement
+﻿module SignalingServer.Hubs.Signaling.RoomManagement
 
-open Behide.OnlineServices
-open Behide.OnlineServices.Signaling
-open Behide.OnlineServices.Signaling.Errors
+open SignalingServer
+open SignalingServer.Signaling
+open SignalingServer.Signaling.Errors
 type Hub = Microsoft.AspNetCore.SignalR.Hub<ISignalingClient>
 
 open System

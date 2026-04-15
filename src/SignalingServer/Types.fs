@@ -1,4 +1,4 @@
-namespace Behide.OnlineServices
+namespace SignalingServer
 
 /// Unordered pair
 type Pair<'T when 'T: comparison> =

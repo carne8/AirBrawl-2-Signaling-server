@@ -1,8 +1,8 @@
-﻿namespace Behide.OnlineServices.Signaling
+﻿namespace SignalingServer.Signaling
 
 open System.Collections.Generic
-open Behide.OnlineServices
-open Behide.OnlineServices.Signaling
+open SignalingServer
+open SignalingServer.Signaling
 
 type PlayerId =
     private | PlayerId of string

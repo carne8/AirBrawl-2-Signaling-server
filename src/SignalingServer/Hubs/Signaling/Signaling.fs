@@ -1,10 +1,10 @@
-namespace Behide.OnlineServices.Hubs.Signaling
+namespace SignalingServer.Hubs.Signaling
 
 open System.Threading.Tasks
 open Microsoft.AspNetCore.SignalR
 open FsToolkit.ErrorHandling
-open Behide.OnlineServices
-open Behide.OnlineServices.Signaling
+open SignalingServer
+open SignalingServer.Signaling
 
 type SignalingHub(connectionAttemptStore: IConnectionAttemptStore, roomStore: IRoomStore, playerStore: IPlayerStore) =
     inherit Hub<ISignalingClient>()

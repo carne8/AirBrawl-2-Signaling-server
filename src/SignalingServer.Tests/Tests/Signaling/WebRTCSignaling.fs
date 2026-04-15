@@ -1,11 +1,11 @@
-﻿module Behide.OnlineServices.Tests.Signaling.WebRTCSignaling
+﻿module SignalingServer.Tests.Signaling.WebRTCSignaling
 
 open Expecto
 open FsToolkit.ErrorHandling
 
-open Behide.OnlineServices.Signaling
-open Behide.OnlineServices.Tests
-open Behide.OnlineServices.Tests.Signaling.Common
+open SignalingServer.Signaling
+open SignalingServer.Tests
+open SignalingServer.Tests.Signaling.Common
 
 let tests testServer (connectionAttemptStore: IConnectionAttemptStore) =
     testList "WebRTC Signaling" [

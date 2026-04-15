@@ -1,4 +1,4 @@
-namespace Behide.OnlineServices.Signaling
+namespace SignalingServer.Signaling
 
 open System
 open System.Threading.Tasks
@@ -57,7 +57,7 @@ type RoomConnectionInfo =
       FailedCreations: int array }
 
 
-open Behide.OnlineServices.Signaling.Errors
+open SignalingServer.Signaling.Errors
 
 // Members with several parameters should have their parameters named
 // Otherwise, the library TypedSignalR.Client generate invalid C# code

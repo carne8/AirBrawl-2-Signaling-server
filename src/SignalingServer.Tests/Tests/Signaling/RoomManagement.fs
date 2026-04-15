@@ -1,4 +1,4 @@
-﻿module Behide.OnlineServices.Tests.Signaling.RoomManagement
+﻿module SignalingServer.Tests.Signaling.RoomManagement
 
 open Expecto
 open FsToolkit.ErrorHandling
@@ -9,10 +9,10 @@ open System.Collections.Generic
 open System.Threading
 open System.Threading.Tasks
 
-open Behide.OnlineServices
-open Behide.OnlineServices.Signaling
-open Behide.OnlineServices.Tests
-open Behide.OnlineServices.Tests.Signaling.Common
+open SignalingServer
+open SignalingServer.Signaling
+open SignalingServer.Tests
+open SignalingServer.Tests.Signaling.Common
 
 let tests testServer (roomStore: IRoomStore) =
     testList "RoomManagement" [

@@ -1,5 +1,5 @@
 [<AutoOpen>]
-module Behide.OnlineServices.Helpers
+module SignalingServer.Helpers
 
 module Result =
     let inline ofOption error opt =

@@ -1,4 +1,4 @@
-module Behide.OnlineServices.Store
+module SignalingServer.Store
 
 open System.Collections.Concurrent
 open FsToolkit.ErrorHandling

@@ -1,8 +1,8 @@
-﻿module Behide.OnlineServices.Hubs.Signaling.WebRTCSignaling
+﻿module SignalingServer.Hubs.Signaling.WebRTCSignaling
 
-open Behide.OnlineServices
-open Behide.OnlineServices.Signaling
-open Behide.OnlineServices.Signaling.Errors
+open SignalingServer
+open SignalingServer.Signaling
+open SignalingServer.Signaling.Errors
 open FsToolkit.ErrorHandling
 
 type Hub = Microsoft.AspNetCore.SignalR.Hub<ISignalingClient>

@@ -1,13 +1,13 @@
 services:
-  behide-online-services:
+  signaling-server:
     build: .
-    container_name: behide-online-services
+    container_name: signaling-server
     labels:
       - traefik.enable=true
-      - traefik.http.routers.bos-https.rule=(Host(`bos.titaye.dev`))
-      - traefik.http.routers.bos-https.tls=true
-      - traefik.http.routers.bos-https.tls.certresolver=myresolver
-      - traefik.http.routers.bos.rule=(Host(`bos.titaye.dev`))
+      - traefik.http.routers.airbrawl-signaling-https.rule=(Host(`airbrawl-signaling.titaye.dev`))
+      - traefik.http.routers.airbrawl-signaling-https.tls=true
+      - traefik.http.routers.airbrawl-signaling-https.tls.certresolver=myresolver
+      - traefik.http.routers.airbrawl-signaling.rule=(Host(`airbrawl-signaling.titaye.dev`))
 
     networks:
       - web
