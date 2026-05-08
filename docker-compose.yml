@@ -4,10 +4,10 @@ services:
     container_name: signaling-server
     labels:
       - traefik.enable=true
-      - traefik.http.routers.airbrawl-signaling-https.rule=(Host(`airbrawl-signaling.titaye.dev`))
-      - traefik.http.routers.airbrawl-signaling-https.tls=true
-      - traefik.http.routers.airbrawl-signaling-https.tls.certresolver=myresolver
-      - traefik.http.routers.airbrawl-signaling.rule=(Host(`airbrawl-signaling.titaye.dev`))
+      - traefik.http.routers.air-brawl-https.rule=(Host(`air-brawl.titaye.dev`))
+      - traefik.http.routers.air-brawl-https.tls=true
+      - traefik.http.routers.air-brawl-https.tls.certresolver=myresolver
+      - traefik.http.routers.air-brawl.rule=(Host(`air-brawl.titaye.dev`))
 
     networks:
       - web
